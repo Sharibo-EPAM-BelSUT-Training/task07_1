@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="Medicine"
+	xmlns:m="Medicine" elementFormDefault="qualified">
+
+	<!--
+		xmlns="http://www.w3.org/2001/XMLSchema" задает пространство имен по
+		умолчанию для элементов, атрибутов и типов схемы, которые принадлежат пространству
+		имен "http://www.w3.org/2001/XMLSchema" и описаны соответствующей схемой.
+
+		targetNamespace="http://www.example.com/Students" задает пространство имен
+		для элементов/атрибутов, которые описывает данная схема
+
+		xmlns:m="http://www.example.com/Students"
+		вводит префикс для пространства имен (элементов) данной схемы. То есть для
+		всех элементов, типов, описанных данной схемой и используемых здесь же требуется
+		использовать префикс m, как в случае с типами – m:Address, m:Login
+		и т.д.
+	-->
+
+	<element name="medicine">
+		<complexType>
+			<sequence>
+
+				<element name="name" type="m:string"/>
+                <element name="pharm" type="m:string"/>
+                <element name="group" type="m:string"/>
+                <element name="analogs" type="m:string" minOccurs="0" maxOccurs="unbounded"/>
+                <element name="versions">
+                    <complexType>
+                        <sequence>
+                            <element name="version" type="m:string"/>
+                            <element name="certificate" type="m:string"/>
+                            <element name="package" type="m:string"/>
+                            <element name="dosage" type="m:string" minOccurs="1" maxOccurs="unbounded"/>
+                        </sequence>
+                    </complexType>
+                </element>
+
+			</sequence>
+		</complexType>
+	</element>
+
+    <simpleType name="string">
+        <restriction base="string"/>
+    </simpleType>
+
+</schema>

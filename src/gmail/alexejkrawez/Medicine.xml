@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<m:medicine
+    xmlns:m="Medicine"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="Medicine
+	Medicine.xsd">
+        <m:name>Ацикловир</m:name>
+        <m:pharm>АО «АВВА РУС»</m:pharm>
+        <m:group>Противовирусные (за исключением ВИЧ) средства</m:group>
+        <m:analogs>Зовиракс</m:analogs>
+        <m:analogs>Ацикловир Сандоз</m:analogs>
+        <m:versions>
+            <m:version>Таблетки 200 мг</m:version>
+            <m:certificate>№ ЛС-001205, 2011-07-15 от АВВА-РУС АО (Россия)</m:certificate>
+            <m:package>Упаковка контурная ячейковая 10, пачка картонная 1</m:package>
+            <m:dosage>Взрослые: 1 табл. (200 мг) внутрь 5 раз в день, 5 дней.
+                Дети старше 2 лет: 1 табл. (200 мг) внутрь 5 раз в день, 5 дней.
+                Дети младше 2 лет: — 0,5 табл. (100 мг) внутрь 5 раз в день, 5 дней.
+            </m:dosage>
+        </m:versions>
+</m:medicine>

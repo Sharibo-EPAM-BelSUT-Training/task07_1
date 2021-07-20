@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<medicine xmlns="Medicine">
+    <name>Ацикловир Сандоз</name>
+    <pharm>Salutas Pharma</pharm>
+    <group>Противовирусные (за исключением ВИЧ) средства</group>
+    <analogs>Ацикловир</analogs>
+    <analogs>Зовиракс</analogs>
+    <versions>
+        <version>Таблетки 200 мг</version>
+        <certificate>№ ЛП-001538, 2012-02-27 от Sandoz d.d. (Словения)</certificate>
+        <package>В блистере 10 шт.; в коробке 5 блистеров.</package>
+        <dosage>Взрослые: 1 табл. (200 мг) внутрь 5 раз в день, 5 дней.
+			Дети старше 2 лет: 1 табл. (200 мг) внутрь 5 раз в день, 5 дней.
+			Дети младше 2 лет: — 0,5 табл. (100 мг) внутрь 5 раз в день, 5 дней.</dosage>
+    </versions>
+</medicine>
